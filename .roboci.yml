@@ -1,15 +1,18 @@
 stages:
-  - build:
-      - build:
-          script:
-            - echo "Hello, build!"
+  - name: build
+    jobs:
+      - name: build
+        script:
+          - echo "Hello, build!"
 
-  - test:
-      - test:
-          script:
-            - echo "Hello, test!"
+  - name: test
+    jobs:
+      - name: test
+        script:
+          - echo "Hello, test!"
 
-  - deploy:
-      - deploy:
-          script:
-            - echo "Hello, deploy!"
+  - name: deploy
+    jobs: 
+      - name: deploy
+        script:
+          - echo "Hello, deploy!"
