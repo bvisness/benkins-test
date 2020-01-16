@@ -1,1 +1,2 @@
 Script = "benkins.sh"
+Artifacts = ["now.txt"]
