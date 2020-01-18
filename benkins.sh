@@ -7,5 +7,6 @@ sleep 1
 date > now.txt
 echo "I guess we're done."
 
+echo "Everything went wrong." > benkins-notification.txt
 exit 1
 
