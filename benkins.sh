@@ -7,3 +7,5 @@ sleep 1
 date > now.txt
 echo "I guess we're done."
 
+exit 1
+
