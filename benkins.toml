@@ -1,2 +1,2 @@
-Script = "benkins.sh"
+Run = ["./benkins.sh"]
 Artifacts = ["now.txt"]
